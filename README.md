@@ -12,4 +12,4 @@ Zusätzliche Funktionen sind:
    - "Schwer" mit 20*20 mit einer Kästchenbreite von 28
    
    
-- ch wünsche Ihnen viel Spaß beim Testen des Spiels!
+- Ich wünsche Ihnen viel Spaß beim Testen des Spiels!
