@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minesweeper.Minesweeper_Applic_Controller">
+   <children>
+      <VBox layoutX="67.0" layoutY="24.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="44.0" prefWidth="567.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="43.0" prefWidth="567.0" text="Minesweeper - by Johannes Kerbl" textAlignment="CENTER" textFill="DARKOLIVEGREEN">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></VBox>
+      <AnchorPane fx:id="anchorField" layoutX="67.0" layoutY="67.0" prefHeight="567.0" prefWidth="567.0" style="-fx-background-color: rgb(99, 126, 7);" />
+      <Button layoutX="203.0" layoutY="639.0" mnemonicParsing="false" onAction="#newGame" prefHeight="44.0" prefWidth="56.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/greenRight.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="642.0" prefHeight="44.0" prefWidth="136.0" text="Neue Runde:" textFill="DARKOLIVEGREEN">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="643.0" prefHeight="44.0" prefWidth="190.0" text="Schwierigkeitsgrad:" textFill="DARKOLIVEGREEN">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choiceBoxLevel" layoutX="484.0" layoutY="643.0" prefHeight="44.0" prefWidth="150.0" style="-fx-background-color: lightgrey;" />
+   </children>
+</AnchorPane>
